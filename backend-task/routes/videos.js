@@ -3,7 +3,7 @@ const router = express.Router();
 const axios = require("axios");
 const mongoose = require("mongoose");
 
-const API_KEY = "AIzaSyC70NaVBT1pCuIeB31Sk6lbtRJCEdmtqhA";
+const API_KEY = "";
 const URL = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&type=video&part=snippet&maxResults=10&q=sports`;
 const videoDetails = [];
 
